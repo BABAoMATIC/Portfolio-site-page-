@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL PORTFFOLIO WEBSITE</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media-query.css" />
+    <script src="https://kit.fontawesome.com/2514c28606.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+      
+        <nav>
+          
+          <div class="logo">
+            <h2><span>N</span>ISHIT</h2>
+          </div>
+          
+            <ul id="sidemenu">
+              <li><a href="#header">HOME</a></li>
+              <li><a href="#about">ABOUT</a></li>
+              <li><a href="#services">SERVICES</a></li>
+              <li><a href="#portfolio">PORTFOLIO</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+              <i class="fa-solid fa-xmark menu" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars menu" onclick="openmenu()"></i>
+          
+
+         
+        </nav>
+       </div>
+        <div class="header-text">
+          <p>WEB DESIGNER</p>
+          <h1>
+            Hi, I'm <span>Nishit</span> <br />
+            Bhardwaj From Jaipur
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- about  -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1 " id="about-col-1-img">
+            <img src="images/nishit-2.jfif" alt=""  style="width: 100%; height: auto;"/>
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle">About Me</h1>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas
+              possimus perspiciatis commodi, architecto dicta quas cupiditate
+              expedita, itaque saepe, dolore molestias nostrum delectus
+              temporibus tempora placeat laudantium omnis labore eaque id
+              dolorum a distinctio modi. Reiciendis tempore voluptatem
+              aspernatur nostrum illum illo eveniet veniam ratione. Obcaecati
+              fugit ducimus voluptatem unde?
+            </p>
+            <div class="tab-tittles">
+              <p class="tab-links active-link" onclick="opentab('skills')">SKILLS</p>
+              <p class="tab-links" onclick="opentab('expirience')">EXPIRIENCE</p>
+              <p class="tab-links" onclick="opentab('education')">EDUCATION</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>HTML/CSS/BOOTSTRAP</span><br />Designing Web & Photoshop
+                </li>
+                <li>
+                  <span>Javascript/REACT.JS</span><br />Designing Web/ Front Web
+                  Devlopment
+                </li>
+                <li><span>Node.js</span><br />For Backend Devlopment</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="expirience" >
+              <ul>
+                <li><span>EXPIRIENCE-1</span><br />Fresher</li>
+                <li><span>EXPIRIENCE-1</span><br />Fresher</li>
+                <li><span>EXPIRIENCE-1</span><br />Frehser</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2019-2020</span><br />XII FROM Choudhary Public School 
+                </li>
+                <li>
+                  <span>2021-2024</span><br /> BCA FROM SSG
+                  Pareek PG College
+                </li>
+               
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -------------SERVICES------------------- -->
+
+    <div id="services">
+      <div class="container " >
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+          <div class="h-c-b">
+            <i class="fa-solid fa-code"></i>
+            <h2>HTML/CSS/BS</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis incidunt dolorum mollitia provident, eos quam!</p>
+            <a href="">Learn More</a>
+          </div>
+          <div class="react">
+            <i class="fa-brands fa-react"></i>
+            <h2>React Devplopment</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis incidunt dolorum mollitia provident, eos quam!</p>
+            <a href="">Learn More</a>
+          </div>
+          <div class="backend">
+            <i class="fa-brands fa-node-js"></i>
+            <h2>Backend Devlopment</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis incidunt dolorum mollitia provident, eos quam!</p>
+            <a href="">Learn More</a>
+          </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- -------------SERVICES------------------- -->
+
+    <div id="portfolio">
+      <div class="container container-work">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" alt="">
+            <div class="layer">
+              <h3>Responsive Design</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At repudiandae   </p>
+              <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" alt="">
+            <div class="layer">
+              <h3>ONLINE SHOPPING SITE</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At repudiandae   </p>
+              <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" alt="">
+            <div class="layer">
+              <h3>Backend Devlopment</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At repudiandae   </p>
+              <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+         <a href="" class="btn">See More</a>
+      </div>
+    </div>
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="subtitle">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>nishitbhardwaj11@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>+91 9351399555</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/nishit.bhardwaj.79?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://twitter.com/BabMatic?t=oHoBrLzmkBOqyt-2m6kc9Q&s=09"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://www.instagram.com/@babaomatic"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/nishit-bhardwaj-469556214"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+
+            <a href="NISHIT.pdf" target="_blank" download class="btn btn2">Download CV</a>
+
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="text" name="e-mail" placeholder="Your E-mail" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2" >Submit</button>
+
+            </form>
+            <span id="msg">Submit Successfully</span>
+          </div>  
+        </div>
+      </div>
+      <div class="copyright">
+        <p>copyright © Nishit <i class="fa-solid fa-heart"></i></p>
+      </div>
+    </div>
+
+
+   
+   
+   
+   
+   <script>
+
+       var tablinks = document.getElementsByClassName("tab-links");
+       var tabcontents = document.getElementsByClassName("tab-contents");
+
+       function opentab(tabname) {
+         for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+         }
+           for (tabcontent of tabcontents) {
+           tabcontent.classList.remove("active-tab");
+           }
+           event.currentTarget.classList.add("active-link");
+           document.getElementById(tabname).classList.add("active-tab")
+          }
+
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu")
+
+      function openmenu(){
+        sidemenu.style.right = "0";
+      }
+
+      function closemenu(){
+        sidemenu.style.right = "-200px";
+      }
+
+
+
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbxrx6rnMlNKy9gAvQLtOcOsKGhF7zy_gAXJI4cbi_3ymEcSBdxlAjPJsz1XeMbU9yVj/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML = "Message Sent Succefully"
+            setTimeout(function(){
+              innerHTML = ""
+            },5000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+
+  </body>
+</html>
